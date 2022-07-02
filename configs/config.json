@@ -1,0 +1,4 @@
+{
+    "Bind_addr": ":8989",
+    "max_connections": 10
+}
