@@ -10,6 +10,14 @@ import (
 	"time"
 )
 
+
+//           _     _   _        
+//          | |   (_) | |       
+//   _   _  | |_   _  | |  ___  
+//  | | | | | __| | | | | / __| 
+//  | |_| | \ |_  | | | | \__ \ 
+//   \__,_|  \__| |_| |_| |___/ 
+
 // ConstructorSrv заполняет нашу структуру
 func (s *Server) ConstructorSrv(port string, maxConnections int) error {
 	srv, err := net.Listen("tcp", port)
